@@ -1,7 +1,5 @@
-"use client"; 
-import Image from "next/image"
+"use client"; // this is a client component
 import React, { useState } from 'react'
-import { useSession } from 'next-auth/react'
 import { Cog,  Gem, Menu } from 'lucide-react';
 import Theme from "./theme";
 const Sidebar = () => {
